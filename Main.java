@@ -9,7 +9,7 @@ import java.time.format.DateTimeFormatter;
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        System.out.print("Quelle est ton année de naissance ? (dd/MM/yyyy): ");
+        System.out.print("Quelle est ta date de naissance ? (dd/MM/yyyy): ");
 
         String date = br.readLine();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
